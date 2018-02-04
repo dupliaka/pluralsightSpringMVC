@@ -9,16 +9,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Add minutes</h1>
-<form:form commandName = "exercise">
+<h1>Add Goal</h1>
+<form:form commandName = "goal">
     <table>
         <tr>
-            <td>Our goal of the day : ${goal.minutes}<td>
-            <td>Please add minutes<td>
+            <td>Enter minutes<td>
             <td><form:input path="minutes"/></td>
         </tr>
         <tr>
-            <td colspan="2"><input type="submit" value="Enter exercise"/></td>
+            <td colspan="2"><input type="submit" value="Enter Goal Minutes"/></td>
         </tr>
     </table>
 </form:form>
